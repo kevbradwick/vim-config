@@ -1,3 +1,7 @@
+call pathogen#infect()
+syntax on
+filetype plugin indent on
+
 set autoindent
 set hlsearch
 set tabstop=4
@@ -10,5 +14,4 @@ set ruler
 set number
 set colorcolumn=80
 
-call pathogen#infect()
-filetype plugin indent on
+colorscheme molokai

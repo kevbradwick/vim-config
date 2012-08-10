@@ -8,4 +8,5 @@ set cindent
 set paste
 set ruler
 set number
+set colorcolumn=80
 colorscheme molokai

@@ -10,5 +10,5 @@ set ruler
 set number
 set colorcolumn=80
 
-call pathogen#infect('~/.vim/path')
-
+call pathogen#infect()
+filetype plugin indent on

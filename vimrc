@@ -4,6 +4,7 @@ call pathogen#helptags()
 
 syntax on
 filetype plugin indent on
+set background=dark
 
 set autoindent
 set hlsearch
@@ -15,6 +16,9 @@ set cindent
 set paste
 set ruler
 set number
-set colorcolumn=80
+
+if exists("&colorcolumn")
+    set colorcolumn=80
+endif
 
 colorscheme molokai
